@@ -1,0 +1,204 @@
+/* Main container */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+/* Registration form */
+.form-box {
+  width: 700px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+/* Form heading */
+.form-box h2 {
+  text-align: center;
+  background-color: orange;
+  padding: 10px;
+  margin: 0 0 20px 0;
+}
+
+/* Labels */
+.form-box label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Inputs, select and textarea */
+.form-box input,
+.form-box select,
+.form-box textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Textarea */
+.form-box textarea {
+  height: 80px;
+  resize: none;
+}
+
+/* Favorite color input */
+.form-box .color-input {
+  width: 40px;
+  height: 30px;
+  padding: 2px;
+}
+
+/* Range input */
+.form-box .range-input {
+  padding: 0;
+}
+
+/* Terms and conditions */
+.form-box .terms {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: normal;
+}
+
+/* Checkbox */
+.form-box .terms input {
+  width: auto;
+}
+
+/* Register and Reset button container */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Buttons */
+.form-box button {
+  padding: 10px 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button hover */
+.form-box button:hover {
+  opacity: 0.8;
+}
+
+/* Reset button */
+.form-box button:last-child {
+  background-color: #444;
+}
+
+/* Registration Information Box */
+.info-box {
+  width: 700px;
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+/* Information heading */
+.info-box h2 {
+  text-align: center;
+  background-color: orange;
+  padding: 10px;
+  margin: 0 0 20px 0;
+}
+
+/* Information text */
+.info-box p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Color preview box */
+.color-box {
+  display: inline-block;
+  width: 40px;
+  height: 25px;
+  margin-left: 10px;
+  vertical-align: middle;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+/* Uploaded photo */
+.info-box img {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Responsive design */
+@media (max-width: 750px) {
+  .form-box,
+  .info-box {
+    width: 100%;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
+
+.registered-form {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.registered-form h2 {
+  text-align: center;
+  background-color: orange;
+  padding: 10px;
+  margin: 0 0 20px 0;
+}
+
+.registered-form p {
+  margin: 10px 0;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.photo-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo-section img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.color-display {
+  display: inline-block;
+  width: 25px;
+  height: 18px;
+  border: 1px solid #333;
+  vertical-align: middle;
+  margin: 0 8px;
+}
