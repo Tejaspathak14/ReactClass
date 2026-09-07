@@ -8,7 +8,7 @@ function App() {
   const [age, setAge] = useState("");
   const [dob, setDOB] = useState("");
   const [gender, setGender] = useState("");
-  const [course, setCourse] = useState("");
+  const [course, setCourse] = useState(""); 
   const [skills, setSkills] = useState([]);
   const [country, setCountry] = useState("");
   const [address, setAddress] = useState("");
